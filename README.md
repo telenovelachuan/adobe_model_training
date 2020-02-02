@@ -52,9 +52,9 @@ The below base model options are trained and tested using grid search and mean a
 	
 For these models, the 5 base models with best performance by 10-fold cross validation are Kernel Ridge, Lasso, Elastic Net and Bayesian Ridge.
 
-The meta model is used to further fit the prediction errors by these fine tuned base models. Lasso outperformed all other options here as the meta model. 
+The meta model is used to further fit the prediction errors by these fine tuned base models. Lasso outperformed all other options here as the meta model, and reached a final MAPE of around .03131.
 
-I also tried a simple average of all the base models as output, which seemed to outperform the stacking method a little bit.
+I also tried a simple average of all the base models as output, which seemed to outperform the stacking method a little bit with the MAPE of around .03123.
 
 [Click me for more details of regression modeling](https://github.com/telenovelachuan/adobe_model_training/blob/master/notebooks/regression.ipynb)
 
