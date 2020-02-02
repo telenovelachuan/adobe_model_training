@@ -1,4 +1,4 @@
-A data science project on fitting the test dataset and make predictions on the test set.
+A data science project on fitting the training dataset and make predictions on the test set.
 
 ## Feature exploring
 
