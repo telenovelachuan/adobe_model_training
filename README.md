@@ -34,6 +34,8 @@ From the pearson correlations, it could be observed that the most correlated fea
 The pearson correlations for all the new features:
 ![pearson_corr_new](https://github.com/telenovelachuan/adobe_model_training/blob/master/reports/figures/pearson_corr_new.png)
 
+[Click me for more details of feature exploration](https://github.com/telenovelachuan/adobe_model_training/blob/master/notebooks/feature%20exploration.ipynb)
+
 ## Regression modeling
 
 I tried a stacking method that first fine tuned 5 base regression models on the training set, then a meta model is applied on these base models to fit the residual between the predictions by these base models and target values.
@@ -54,6 +56,7 @@ The meta model is used to further fit the prediction errors by these fine tuned 
 
 I also tried a simple average of all the base models as output, which seemed to outperform the stacking method a little bit.
 
+[Click me for more details of regression modeling](https://github.com/telenovelachuan/adobe_model_training/blob/master/notebooks/regression.ipynb)
 
 
  
